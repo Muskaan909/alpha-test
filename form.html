@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <form id="data-form" action="view-products.html">
+
+        <div class="sub-container">
+          <label for="productname">PRODUCT NAME</label>
+          <input type="text" id="productname" name="productname" />
+        </div>
+
+        <div class="sub-container">
+          <label for="measurement">UNIT OF MEASUREMENT</label>
+          <input type="text" id="measurement" name="measurement" />
+        </div>
+
+        <div class="sub-container">
+          <label for="price">PRICE</label>
+          <input type="number" id="price" name="price" />
+        </div>
+
+        <div class="sub-container">
+          <label for="description">DESCRIPTION</label>
+          <input type="text" id="description" name="description" />
+        </div>
+
+        <div class="buttons-container">
+          <input
+            class="button"
+            type="submit"
+            value="Submit"
+            onclick="GetValues()"
+          />
+          <input class="button" type="reset" value="Reset" />
+        </div>
+
+      </form>
+
+      
+    </div>
+    <p id="demo"></p>
+    <script type="text/javascript" src="form.js"></script>
+  </body>
+</html>

@@ -1,2 +1,1 @@
-# alpha-test
-Code to add data and display using forms 
+The form.html is the entry point for the website
